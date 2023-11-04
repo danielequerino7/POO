@@ -5,7 +5,7 @@ public class Principal {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+	
 		// A) objeto ja inicializado
 		Cachorro C1; // declarando uma variavel ponteiro 
 		C1 = new Cachorro("cachorro sem nome", "nenhuma raça definida", 0); // instanciando o objeto e referenciando no ponteiro 
