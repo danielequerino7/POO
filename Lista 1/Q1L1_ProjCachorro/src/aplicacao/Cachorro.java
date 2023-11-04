@@ -17,8 +17,7 @@ public class Cachorro {
 		return "Nome: " + nome + "\nRaça: " + raca + "\nIdade: " + idade;
 	}
 	public Cachorro clonarCachorro() {
-		Cachorro clone_C1 = new Cachorro(nome, raca, idade);
-		return clone_C1;
+		return new Cachorro(nome, raca, idade);
 	}
 
 	public String getNome() {
